@@ -1,0 +1,80 @@
+[
+  {
+    "description": "looking fun trendy look go iconic jewelry splash color lilac-colored elastic bracelet silver star part sweet doll collection versatile piece jewelry go anywhere you.tous sweet doll lilac-colored elastic bracelet silver vermeil star charm charm size 14 x 15 mm bracelet length 17 cm.lilac-colored elastic sweet doll bracelet silver vermeil star",
+    "tags": {
+      "CATEGORY_1": ["jewelry"],
+      "CATEGORY_2": ["bracelet"],
+      "MAIN_MATERIAL": ["silver"],
+      "SECONDARY_MATERIAL": ["silver"],
+      "SIZE_SYSTEM": ["mm"],
+      "RAW_METAL": ["silver"],
+      "PLATING_METAL": ["silver"],
+      "length": "17cm",
+      "size": "14 x 15mm"
+    }
+  },
+  {
+    "description": "looking fun trendy look go iconic jewelry splash color blue elastic bracelet silver star part sweet doll collection versatile piece jewelry go anywhere you.tous sweet doll blue elastic bracelet sterling silver star charm charm size 14 x 15 mm bracelet length 17 cm.blue elastic sweet doll bracelet silver star",
+    "tags": {
+      "CATEGORY_1": ["jewelry"],
+      "CATEGORY_2": ["bracelet"],
+      "SKU_COLOR": ["blue"],
+      "MAIN_MATERIAL": ["silver"],
+      "SECONDARY_MATERIAL": ["silver"],
+      "SIZE_SYSTEM": ["mm"],
+      "RAW_METAL": ["silver"],
+      "PLATING_METAL": ["silver"],
+      "GEMSTONE_1_COLOR": ["blue"],
+      "GEMSTONE_2_COLOR": ["blue"],
+      "GEMSTONE_3_COLOR": ["blue"],
+      "GEMSTONE_4_COLOR": ["blue"],
+      "GEMSTONE_5_COLOR": ["blue"],
+      "length": "17cm",
+      "size": "14 x 15mm"
+    }
+  },
+  {
+    "description": "-tous good vibe bracelet multicolored polyester viscose cord 23 mm bar 6 mm four-leaf clover silver vermeil buckle sliding bear adjusting size sterling silver plated 18kt gold thickness 3 5 micron metal production technique casting.silver vermeil tous good vibe four-leaf clover bracelet multicolored cord",
+    "tags": {
+      "CATEGORY_2": ["bracelet"],
+      "MAIN_MATERIAL": ["gold", "silver"],
+      "MATERIAL_FINISHING": ["cord"],
+      "SECONDARY_MATERIAL": ["gold", "silver"],
+      "SIZE_SYSTEM": ["mm"],
+      "RAW_METAL": ["gold", "silver"],
+      "RAW_MATERIAL_STAMP": ["18kt"],
+      "IF_GOLD_VARIATION": ["gold"],
+      "PLATING_METAL": ["gold", "silver"],
+      "PLATING_METAL_STAMP": ["18kt"],
+      "PLATING_TECHNIQUE": ["micron"],
+      "JEWELRY_SETTING_STYLE": ["bar"],
+      "GEMSTONE_1_SETTING": ["bar"],
+      "GEMSTONE_2_SETTING": ["bar"],
+      "GEMSTONE_3_SETTING": ["bar"],
+      "GEMSTONE_4_SETTING": ["bar"],
+      "GEMSTONE_5_SETTING": ["bar"],
+      "CLASP_TYPE": ["buckle"],
+      "length": "6mm"
+    }
+  },
+  {
+    "description": "tous new motif bracelet silver vermeil 4.4 mm x 4.6 mm amethyst heart pearl measuring \u00f83 mm bracelet length 17.5 cm.silver vermeil tous new motif bracelet amethyst heart",
+    "tags": {
+      "CATEGORY_2": ["bracelet"],
+      "MAIN_MATERIAL": ["silver"],
+      "SECONDARY_MATERIAL": ["silver"],
+      "SIZE_SYSTEM": ["mm"],
+      "RAW_METAL": ["silver"],
+      "PLATING_METAL": ["silver"],
+      "GEMSTONE_1_NAME": ["pearl"],
+      "GEMSTONE_1_CATEGORY": ["amethyst", "pearl"],
+      "GEMSTONE_1_CUT": ["heart"],
+      "GEMSTONE_2_CUT": ["heart"],
+      "GEMSTONE_3_CUT": ["heart"],
+      "GEMSTONE_4_CUT": ["heart"],
+      "GEMSTONE_5_CUT": ["heart"],
+      "CHAIN_TYPE": ["heart"],
+      "length": "17.5cm"
+    }
+  }
+]
