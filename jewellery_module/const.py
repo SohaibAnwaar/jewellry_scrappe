@@ -1,0 +1,1 @@
+excel_file_path = 'NER_Attributes.csv'
