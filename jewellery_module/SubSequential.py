@@ -25,6 +25,8 @@ class SubSequential():
                         resp[index_count]['tags']['RAW_MATERIAL_STAMP'] = ''
                     elif block['tags'].get('RAW_MATERIAL_PURITY') == 999:
                         resp[index_count]['tags']['RAW_MATERIAL_STAMP'] = ''
+                    elif block['tags'].get('RAW_MATERIAL_PURITY') == 500:
+                        resp[index_count]['tags']['RAW_MATERIAL_STAMP'] = ''
                 if block['tags'].get('RAW_METAL') is not None and 'palladium' in block['tags'].get('RAW_METAL'):
                     if block['tags'].get('RAW_MATERIAL_PURITY') == 500:
                         resp[index_count]['tags']['RAW_MATERIAL_STAMP'] = ''
@@ -72,8 +74,82 @@ class SubSequential():
                     elif block['tags'].get('RAW_MATERIAL_PURITY') == 917:
                         resp[index_count]['tags']['RAW_MATERIAL_STAMP'] = '23k'
                     elif block['tags'].get('RAW_MATERIAL_PURITY') == 958:
-                        resp[index_count]['tags']['RAW_MATERIAL_STAMP'] = '24k'  
+                        resp[index_count]['tags']['RAW_MATERIAL_STAMP'] = '24k' 
                 
+                if block['tags'].get('RAW_MATERIAL_STAMP') is not None: 
+                    if block['tags'].get('RAW_MATERIAL_STAMP') == 'Second Law':
+                        resp[index_count]['tags']['RAW_METAL'] = 'Silver'
+                    elif block['tags'].get('RAW_MATERIAL_STAMP') == 'Sterling':
+                        resp[index_count]['tags']['RAW_METAL'] = 'Silver'
+                    elif block['tags'].get('RAW_MATERIAL_STAMP') == 'Argentium':
+                        resp[index_count]['tags']['RAW_METAL'] = 'Silver'
+                    elif block['tags'].get('RAW_MATERIAL_STAMP') == 'Britannia':
+                        resp[index_count]['tags']['RAW_METAL'] = 'Silver'
+                    elif block['tags'].get('RAW_MATERIAL_STAMP') == '8k':
+                        resp[index_count]['tags']['RAW_METAL'] = 'Gold'
+                    elif block['tags'].get('RAW_MATERIAL_STAMP') == '9k':
+                        resp[index_count]['tags']['RAW_METAL'] = 'Gold'
+                    elif block['tags'].get('RAW_MATERIAL_STAMP') == '10k':
+                        resp[index_count]['tags']['RAW_METAL'] = 'Gold'
+                    elif block['tags'].get('RAW_MATERIAL_STAMP') == '10k':
+                        resp[index_count]['tags']['RAW_METAL'] = 'Gold'
+                    elif block['tags'].get('RAW_MATERIAL_STAMP') == '11k':
+                        resp[index_count]['tags']['RAW_METAL'] = 'Gold'
+                    elif block['tags'].get('RAW_MATERIAL_STAMP') == '12k':
+                        resp[index_count]['tags']['RAW_METAL'] = 'Gold'
+                    elif block['tags'].get('RAW_MATERIAL_STAMP') == '13k':
+                        resp[index_count]['tags']['RAW_METAL'] = 'Gold'
+                    elif block['tags'].get('RAW_MATERIAL_STAMP') == '14k':
+                        resp[index_count]['tags']['RAW_METAL'] = 'Gold'
+                    elif block['tags'].get('RAW_MATERIAL_STAMP') == '14k':
+                        resp[index_count]['tags']['RAW_METAL'] = 'Gold'
+                    elif block['tags'].get('RAW_MATERIAL_STAMP') == '15k':
+                        resp[index_count]['tags']['RAW_METAL'] = 'Gold'
+                    elif block['tags'].get('RAW_MATERIAL_STAMP') == '16k':
+                        resp[index_count]['tags']['RAW_METAL'] = 'Gold'
+                    elif block['tags'].get('RAW_MATERIAL_STAMP') == '17k':
+                        resp[index_count]['tags']['RAW_METAL'] = 'Gold'
+                    elif block['tags'].get('RAW_MATERIAL_STAMP') == '18k':
+                        resp[index_count]['tags']['RAW_METAL'] = 'Gold'
+                    elif block['tags'].get('RAW_MATERIAL_STAMP') == '19k':
+                        resp[index_count]['tags']['RAW_METAL'] = 'Gold'
+                    elif block['tags'].get('RAW_MATERIAL_STAMP') == '20k':
+                        resp[index_count]['tags']['RAW_METAL'] = 'Gold'
+                    elif block['tags'].get('RAW_MATERIAL_STAMP') == '21k':
+                        resp[index_count]['tags']['RAW_METAL'] = 'Gold'
+                    elif block['tags'].get('RAW_MATERIAL_STAMP') == '22k':
+                        resp[index_count]['tags']['RAW_METAL'] = 'Gold'
+                    elif block['tags'].get('RAW_MATERIAL_STAMP') == '22k':
+                        resp[index_count]['tags']['RAW_METAL'] = 'Gold'
+                    elif block['tags'].get('RAW_MATERIAL_STAMP') == '23k':
+                        resp[index_count]['tags']['RAW_METAL'] = 'Gold'
+                    elif block['tags'].get('RAW_MATERIAL_STAMP') == '24k':
+                        resp[index_count]['tags']['RAW_METAL'] = 'Gold'
+                if block['tags'].get('RAW_MATERIAL_PURITY') is not None:
+                    if block['tags'].get('RAW_MATERIAL_PURITY') == '800':
+                        resp[index_count]['tags']['RAW_METAL'] = 'Silver'
+                    elif block['tags'].get('RAW_MATERIAL_PURITY') == '925':
+                        resp[index_count]['tags']['RAW_METAL'] = 'Silver'
+                    elif block['tags'].get('RAW_MATERIAL_PURITY') == '930':
+                        resp[index_count]['tags']['RAW_METAL'] = 'Silver'
+                    elif block['tags'].get('RAW_MATERIAL_PURITY') == '958':
+                        resp[index_count]['tags']['RAW_METAL'] = 'Silver'
+                        
+                    elif block['tags'].get('RAW_MATERIAL_PURITY') == '850':
+                        resp[index_count]['tags']['RAW_METAL'] = 'Platinum'
+                    elif block['tags'].get('RAW_MATERIAL_PURITY') == '900':
+                        resp[index_count]['tags']['RAW_METAL'] = 'Platinum'
+                    elif block['tags'].get('RAW_MATERIAL_PURITY') == '950':
+                        resp[index_count]['tags']['RAW_METAL'] = 'Platinum'
+                    elif block['tags'].get('RAW_MATERIAL_PURITY') == '999':
+                        resp[index_count]['tags']['RAW_METAL'] = 'Platinum'
+                    elif block['tags'].get('RAW_MATERIAL_PURITY') == '500':
+                        resp[index_count]['tags']['RAW_METAL'] = 'Palladium'
+                    elif block['tags'].get('RAW_MATERIAL_PURITY') == '950':
+                        resp[index_count]['tags']['RAW_METAL'] = 'Palladium'
+                    elif block['tags'].get('RAW_MATERIAL_PURITY') == '999':
+                        resp[index_count]['tags']['RAW_METAL'] = 'Palladium' 
+                        
             index_count+=1
         return resp
     def category_taxonomy(self, All_data):
