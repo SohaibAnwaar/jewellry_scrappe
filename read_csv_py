@@ -1,0 +1,26 @@
+import csv
+CATEGORY_1 = []
+CATEGORY_2 = [] 
+CATEGORY_3 = []
+with open('NewAttributes/PRODUCT_CATEGORIES.csv', 'r') as file:
+    reader = csv.reader(file)
+    for row in reader:
+        # Process each row
+        CATEGORY_1.append(row[0])
+        CATEGORY_2.append(row[1])
+        CATEGORY_3.append(row[2])
+
+CATEGORY_1_New = [word.lower() for word in CATEGORY_1]
+CATEGORY_2_New = [word.lower() for word in CATEGORY_2]
+CATEGORY_3_New = [word.lower() for word in CATEGORY_3]
+print(len(CATEGORY_1_New))
+print(len(CATEGORY_2_New))
+print(len(CATEGORY_3_New))
+
+
+# CATEGORY_2_New = list(set(CATEGORY_2_New))
+
+# STR = ''
+# for i in CATEGORY_2_New:
+#     STR += f"{i},"
+print(CATEGORY_3_New)
